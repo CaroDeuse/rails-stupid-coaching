@@ -1,0 +1,17 @@
+<div class="box p-4">
+  <h1>Stupid Coaching</h1>
+
+  <div id="you" class="p-3">
+    <p><%= params[:request] %></p>
+    <p class="font-italic">-You</p>
+  </div>
+
+  <div class="coach p-3">
+    <p><%= @answer %></p>
+    <p class="font-italic">-Coach</p>
+  </div>
+
+
+  <%= link_to "Ask a new question", ask_path, id: "button" %>
+
+</div>

@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+
+.coach {
+  background-color: rgb(249, 249, 165);
+}
+
+#button {
+  text-decoration: none;
+}
+
+/* i don't see all of this? */
